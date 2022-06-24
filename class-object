@@ -1,0 +1,21 @@
+class student:
+  pass
+student1=student()
+name=input(str("your name: "))
+age=int(input("your age: "))
+tracks=input("FE/BE: ")
+score=float(98.5)
+def __init__(self, change_name ,change_age, add_track, get_score):
+  self.change_name=change_name
+  self.change_age=change_age
+  self.add_track=add_track
+  self.get_score
+
+change_name=("PETER")
+change_age=int(34)
+add_track=("ui/ux")
+get_score=24
+print(change_name)
+print(change_age)
+print(add_track)
+print(get_score)
